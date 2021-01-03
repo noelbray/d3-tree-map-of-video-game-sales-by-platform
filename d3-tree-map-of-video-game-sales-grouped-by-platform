@@ -1,0 +1,40 @@
+<!doctype>
+
+<html lang="en-us">
+
+<head>
+
+  <title>D3 Tree Map Of Top 100 Video Game Sales Grouped By Platform</title>
+  
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Noel Bray" />
+  <meta name="description" content="See the Top 100 Video Game Sales Grouped By Platform on this D3 Tree Map on Codepen." />
+  
+  <link rel="stylesheet" href="css/main.css" />
+  
+  <script defer src="js/main.js"></script>
+  <!-- D3 external script -->
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <script src="https://d3js.org/d3-hierarchy.v2.min.js"></script>
+
+</head>
+
+<body>
+
+<noscript>
+  Sorry, your browser does not support JavaScript and unfurtunately, some 
+  website freatures may not work, some website functionality may be lost.
+</noscript>
+
+<h1 id="title">Video Game Sales</h1>
+
+<h2 id="description">Top 100 Most Sold Video Games Grouped by Platform</h2>
+
+<svg id="treemap"></svg>
+<svg id="legend"></svg>
+<div id="tooltip"></div>
+
+</body>
+
+</html>
